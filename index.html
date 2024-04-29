@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body class="w-screen h-screen" background="https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"> 
+    <div id="form" class="w-[95vw] h-[90vh] bg-white opacity-90 md:w-[50%] lg:w-[30%] lg:h-[70%] relative left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-md">
+        <form action="" class="w-full h-full flex flex-col justify-center items-center gap-5">
+            <h1 class="text-3xl font-bold">Login</h1>
+            <input type="text" placeholder="Username" class="w-[90%] lg:w-[70%] py-1 px-2 rounded-md border border-1 focus:ring focus:outline-none">
+            <input type="text" placeholder="Password" class="w-[90%] lg:w-[70%] py-1 px-2 rounded-md border border-1 focus:ring focus:outline-none">
+            <input type="submit" value="Login Now" class="bg-blue-500 px-5 py-1 text-white rounded-2xl cursor-pointer hover:bg-blue-700">
+            <h2>Not a user? <a href="/signup.html" class="text-blue-500 hover:text-blue-700">Sign Up</a></h2>
+            <div class="text-md flex justify-center items-center gap-3 border border-zinc-100 px-3 py-1 rounded-md cursor-pointer">
+                <i class="ri-google-fill text-2xl"></i>
+            <h1>Login with Google</h1>
+            </div>
+            <div class="text-md flex items-center justify-center gap-3 border border-zinc-100 px-3 py-1 rounded-md cursor-pointer"><i class="ri-facebook-box-fill text-2xl"></i>
+                <h1>Login with Facebook</h1></div>
+        </form>
+    </div>
+
+</body>
+</html>
